@@ -1,15 +1,15 @@
 {
-  "name": "handsontable",
+  "name": "handsontable-myssteriion",
   "description": "Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs",
-  "version": "0.24.3",
+  "version": "0.24.3.1",
   "main": ["./dist/handsontable.js", "./dist/handsontable.css"],
   "homepage": "http://handsontable.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/handsontable/handsontable.git"
+    "url": "https://github.com/myssteriion/handsontable.git"
   },
   "authors": [
-    "Handsoncode", "Handsoncode <hello@handsontable.com>"
+    "Myssteriion <myssteriion@hotmail.com>"
   ],
   "keywords": [
     "data",
