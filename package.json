@@ -11,7 +11,7 @@
   },
   "main": "./dist/handsontable.js",
   "author": "Myssteriion <myssteriion@hotmail.com>",
-  "version": "0.24.3.1",
+  "version": "0.24.3.2",
   "keywords": [
     "data",
     "grid",

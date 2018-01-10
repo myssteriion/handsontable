@@ -7571,7 +7571,9 @@ AutocompleteEditor.prototype.flipDropdownIfNeeded = function() {
   var spaceBelow = containerOffset.top + (trimmingContainer.scrollHeight - trimmingContainer.scrollTop);
   var spaceAbove = containerOffset.top + trimmingContainer.scrollHeight;
   var flipNeeded = (textareaOffset.top + textareaHeight + dropdownHeight > spaceBelow);
-  if (flipNeeded && spaceAbove >= spaceBelow) {
+  var tuchHeader = (textareaOffset.top - 2*textareaHeight - dropdownHeight < containerOffset.top);
+
+  if (flipNeeded && !tuchHeader) {
     this.flipDropdown(dropdownHeight);
   } else {
     this.unflipDropdown();
